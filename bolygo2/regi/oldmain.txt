@@ -1,0 +1,197 @@
+int main(int argc, char *argv[]) {
+	/* ablak letrehozasa */
+	SDL_Window *window;
+	SDL_Renderer *renderer;
+	sdl_init("Bolygo-gen", 640, 480, &window, &renderer);
+
+	debugmalloc_max_block_size(100000000);
+
+	SDL_Event ev;
+
+	SDL_Surface *surface = SDL_GetWindowSurface(window);
+
+
+	//Bolygó adatainak inicializálása
+	int dataH = 1024;
+	PlanetData planetData;
+	initPlanetData(&planetData,dataH*2,dataH);
+
+	/*ColorList *colorList = addToEnd(NULL, 0.0, newRGBi(0xD1CF9C));//homok
+	colorList = addToEnd(colorList, 0.05, newRGBi(0x8DCE73));//mezõk
+	colorList = addToEnd(colorList, 0.4, newRGBi(0x6AA551));//hegyek
+	colorList = addToEnd(colorList, 0.8, newRGBi(0x828E63));//hegyek
+	colorList = addToEnd(colorList, 1, newRGBi(0x827465));//hegyek
+
+
+
+	PlanetParam planetParam = {
+
+		.iceCapRad = 0.37,
+		.oceanLevel = 0.3,
+
+
+
+		.oceanBotColor = newRGBi(0x1C285C),
+		.oceanTopColor = newRGBi(0x505B9B),
+
+		.cityColor = newRGBi(0xF9FF8E),
+
+		.sunsetColor = newRGBi(0xFF933A),
+		.sunsetIntensity = 0.15,
+		.atmosphereColor = newRGBi(0x3AA6FF),
+		.cloudColor = newRGBi(0xD4F3F7),
+
+		.polarIceColor = newRGBi(0xB5EEF4),
+		.polarCapMin = newRGBi(0xEDF4F4),
+		.polarCapMax = newRGBi(0xA4C1C4),
+
+		.visualSeed = 12363
+	};*/
+
+	planetData.planetParam=&planetParam;
+	//planetData.oceanLevel = 0.3;
+	planetData.terrainColors = colorList;
+	//Generálás beállításai
+	float edgeWgh[] = {0.77,0.44,0.22,0.10};
+
+	float terrScl[] = {0.5,0.2,0.1,0.05};
+	float terrWgh[] = {0.60,0.20,0.13,0.07};
+
+	GenSettings genSettings =  {
+		.seed=6,
+
+		.continentCount=7,
+		.minContinentNodes=2,
+
+		.maxContinentNodes=3,
+		.minNodeDist = 0.5,
+		.maxNodeDist = 0.9,
+
+		.edgeLayerCount=4,
+		.edgeWgh=edgeWgh,
+
+		.terrLayerCount=4,
+		.terrScl=terrScl,
+		.terrWgh=terrWgh,
+		.genInProgress = true
+	};
+
+
+	generateHeightData(&planetData,&genSettings);
+
+
+
+	Vec3 cameraDir = normalize(newVec(-1, -1, -1));
+	Vec3 cameraPos = mult(cameraDir,-10);
+
+	float cameraSize = 2.0;
+	float focalLength = 0.0;
+
+	Vec3 right = normalize(newVec(cameraDir.y,-cameraDir.x,0));
+	Vec3 up = normalize(cross(right,cameraDir));
+
+	float sunsetAngle = 10;
+
+	SceneSettings sceneSettings = {
+		.cameraPos=cameraPos,
+		.cameraDir=cameraDir,
+
+		.cameraSize=cameraSize,
+		.right = right,
+		.up = up,
+
+		.time=0,
+
+		.lightDir = newVec(0,1,0.0),
+		.sunsetStart = (90-sunsetAngle/2)*ANG2RAD,
+		.sunsetSize = sunsetAngle*ANG2RAD,
+		.shadowMaxVal = 1.0,
+
+		.planetData = &planetData,
+		.rotationQ = 0.2*M_PI,
+		.frameCount=0
+	};
+
+	RenderSettings renderSettings = {
+		.renderMode = RENDER_MODE_HGTMP,
+		.frameInProgress = false,
+		.renderW = 640,
+		.renderH = 480,
+		.renderer = renderer,
+		.pixels = surface->pixels
+	};
+
+
+
+	char debugText[30];
+	Uint32 prevTick = 0;
+
+	int frameCount=0;
+	bool running = true;
+
+	SDL_TimerID timerId = SDL_AddTimer((int)(1/FPS*1000), timer, NULL);
+
+	//Export test
+
+	exportHeightmap("test_hgt.bmp",&planetData);
+	exportTexture("test_text.bmp",&planetData);
+	sceneSettings.time = .7;
+	exportSattelite("test_sat.bmp",&sceneSettings);
+	exportNormalmap("test_nrm.bmp",&planetData, true);//*/
+	exportShadedMap("test_shd.bmp",&planetData,0.6,110*ANG2RAD,true);//*/
+
+	//BUGOS!!!!!
+	/*
+	savePlanetData("test.plnt",&planetData);
+	freePlanetData(&planetData);
+
+	int readResult = readPlanetData("test.plnt",&planetData);
+	printf("\nOlv: %d\n",readResult);//*/
+	//running = false;
+
+	int result = readPlanetParam("defaultparams.txt",&planetData);
+	savePlanetParam("test_planet_param.txt",&planetData);
+	printf("%d",result);
+
+	bool canRenderFrame = true;
+	while (running) {
+		SDL_Event event;
+		SDL_WaitEvent(&event);
+
+		switch (event.type) {
+		case SDL_USEREVENT:
+
+            if(renderSettings.frameInProgress || genSettings.genInProgress) {
+                //event.
+                printf("Frame eldobva!");
+                break;
+            }
+            renderFrame(&renderSettings,&sceneSettings);
+
+
+			prevTick = SDL_GetTicks();
+            sceneSettings.time+=1.0/FPS;
+			break;
+
+		case SDL_QUIT:
+			running=false;
+			break;
+
+
+		}
+
+
+
+        SDL_RenderPresent(renderer);
+	}
+	/* ablak bezarasa */
+	SDL_RemoveTimer(timerId);
+	SDL_Quit();
+
+	//További memória felszabadítása
+
+	freePlanetData(&planetData);
+
+
+	return 0;
+}

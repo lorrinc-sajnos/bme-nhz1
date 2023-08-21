@@ -1,0 +1,58 @@
+Paraméterek parancsai
+	oceanLevel:		<tört>			Beállítja a tengerszint új értékét				X
+	oceanBot:		<szín>			Beállítja a tengerszint legmélyebb színét		X
+	oceanTop:		<szín>			Beállítja a tengerszint legsekélyebb színét		X
+	city:			<szín>			Beállítja a városok színét						X
+	sunset:			<szín>			Beállítja a naplemente színét					X
+	sunsetInt:		<tört>			Beállítja a naplemente intenzitását				X
+	atmosphere:		NEM HASZNÁLT
+	cloud:			NEM HASZNÁLT
+	iceCapRad:		<tört>			Beállítja a jégsapka rádiuszát					X
+	polarIce:		<szín>			Beállítja a jégsapka jeges színét				X
+	polarCapMin:	<szín>			Beállítja a jégsapka alsó színét				
+	polarCapMax:	<szín>			Beállítja a jégsapka felső színét
+	visualSeed:		<egész>
+	biome_add:		<tört>	<szín>			Hozzáadja a biomokhoz az adott magasságú színt
+	biome_add_at:	<egész> <tört> <szín>	Hozzáadja az adott biomokhoz az adott magasságú színt a 
+	biome_rmv:
+	biome_ch_lvl:
+	biome_ch_col:
+	biome_list:
+	biome_clear:
+
+
+Generálás parancsai
+    seed:
+
+    continentCount:
+    minContinentNodes:
+    maxContinentNodes:
+    minNodeDist:
+    maxNodeDist:
+
+    edgeLayer_list:
+    edgeLayerCount:
+    edgeWgh:
+
+    terrLayer_list:
+    terrLayerCount:
+    terrScl:
+    terrWgh:
+
+
+    generate:
+
+
+Importálás parancsai
+    planetData:
+    planetParam
+
+
+Export Parancsok:
+    texture:
+    heightmap:
+    sattelite:
+    normalmap:
+    shadedMap:
+    planetData:
+    planetParam:

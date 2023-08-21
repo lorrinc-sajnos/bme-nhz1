@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="bolygo2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/bolygo2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/bolygo2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="$(#sdl2.include)/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+			<Add library="SDL2_gfx" />
+			<Add library="SDL2_image" />
+			<Add library="SDL2_mixer" />
+			<Add library="SDL2_ttf" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="$(#sdl2.lib)" />
+		</Linker>
+		<Unit filename="colorlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="colorlist.h" />
+		<Unit filename="commandlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="commandlist.h" />
+		<Unit filename="commands.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="commands.h" />
+		<Unit filename="dataio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dataio.h" />
+		<Unit filename="debugmalloc.h" />
+		<Unit filename="generationsettings.h" />
+		<Unit filename="hashfunc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hashfunc.h" />
+		<Unit filename="heightgeneration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="heightgeneration.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="memorycheck.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="memorycheck.h" />
+		<Unit filename="memorymang.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="memorymang.h" />
+		<Unit filename="misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="misc.h" />
+		<Unit filename="perlin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="perlin.h" />
+		<Unit filename="planetdata.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="planetdata.h" />
+		<Unit filename="planetparam.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="planetparam.h" />
+		<Unit filename="rendering.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rendering.h" />
+		<Unit filename="rendersettings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rendersettings.h" />
+		<Unit filename="rgb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rgb.h" />
+		<Unit filename="scenesettings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scenesettings.h" />
+		<Unit filename="typedefs.h" />
+		<Unit filename="vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vector.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

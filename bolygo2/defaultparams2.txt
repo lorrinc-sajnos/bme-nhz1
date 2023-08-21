@@ -1,0 +1,23 @@
+#Ocean
+#----------|
+ocean_lvl 0.3
+ocean_bot 1C285C
+ocean_top 505B9B
+#Varos
+city F9FF8E
+#Legkor
+sunset FF933A
+sunset_int 0.15
+atmosphere 3AA6FF
+cloud D4F3F7
+#Jegsapka
+icecap_rad 0.37
+polar_ice B5EEF4
+polar_min EDF4F4
+polar_max A4C1C4
+#A lista:
+biome 0.0 D1CF9C
+biome 0.05 8DCE73
+biome 0.4 6AA551
+biome 0.8 828E63
+biome 1 827465

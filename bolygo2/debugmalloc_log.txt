@@ -1,0 +1,116 @@
+
+********************************************************
+* MEMORIASZIVARGAS VAN A PROGRAMBAN!!!
+********************************************************
+
+** DEBUGMALLOC DUMP ************************************
+** 1/2055. rekord:
+  000000000563D000, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  6e ffffff92 ffffffbf 3e 00 00 00 00 ffffffa2 67 6d 3f 33 ffffff92 ffffffbf 3e   n..’/
+  .u.:.gm?...>.u.;
+      0020  ffffffa2 67 6d 3f 5a ffffff90 ffffffbf 3e fffffff0 ffffffaf 61 3b ffffffa2 67 6d 3f¢
+  ...>.t.;.gm?...>
+** 2/2055. rekord:
+  000000000517C000, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  ffffffe5 ffffff95 56 3f 00 00 00 00 6b ffffff9a 0b 3f ffffffa3 ffffff95 56 3f   ..V•/
+      0010  ffffffea ffffff88 28 3b 6b ff  ..(;k..?..V?...;
+  k..?..V?...;k..?
+      0030  ffffffc2 ffffff91 56 3f ffffffe6 ffffff87 28 3c 6b ffffff9a 0b 3f 6e ffffff8f 56 3fÂ
+** 3/2055. rekord:
+  0000000004CBB000, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  ffffffaf ffffffda 7f 3f 00 00 00 00 2f 34 0a ffffffbd 60 ffffffda 7f 3f   ...?..../Ú/
+      0010  77 fffffff2 48 3b 2f 34 0a ffffffbd 73 ffffffd9 7f 3f 39 fffffff2 ffffffc8 3b   w.Hò/
+      0020  2f 34 0a ffffffbd ffffffe9 ffffffd7 7f 3f 5d ffffffb5 16 3c 2f 34 0a ffffffbd   /4.45
+      0030  ffffffc0 ffffffd5 7f 3f 42 fffffff1 48 3c 2f 34 0a ffffffbd fffffffa ffffffd2 7f 3fÀ
+** 4/2055. rekord:
+  0000000003CEF000, 4096 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0010  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0020  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0030  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+** 5/2055. rekord:
+  00000000038BB000, 4096 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0010  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0020  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0030  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+** 6/2055. rekord:
+  0000000005795010, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  fffffffe 14 54 3e 00 00 00 00 02 73 7a 3f ffffffbd 14 54 3e   ..T>.....sz?..T>
+      0010  ffffff8d ffffff91 26 3a 02 73 7a 3f fffffff8 13 54 3e 5a ffffff91 ffffffa6 3a   ..&‘/
+      0020  02 73 7a 3f ffffffb1 12 54 3e ffffff86 ffffffd9 fffffff9 3a 02 73 7a 3f   .sz?..T>.st
+      0030  ffffffe7 10 54 3e ffffff8c ffffff90 26 3b 02 73 7a 3f ffffff9b 0e 54 3e   ..T>..&;./
+** 7/2055. rekord:
+  00000000052D4010, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  2a 06 3b 3f 00 00 00 00 fffffff7 ffffffce 2e 3f fffffff0 05 3b 3f   *.;?.......?..;/
+      0010  5d ffffffe3 12 3b fffffff7 ffffffce 2e 3f 43 05 3b 3f 30 ffffffe3 ffffff92 3b   ]..ã/
+      0020  fffffff7 ffffffce 2e 3f 23 04 3b 3f 56 54 ffffffdc 3b fffffff7 ffffffce 2e 3f   ...Î/
+      0030  ffffff8f 02 3b 3f 7b ffffffe2 12 3c fffffff7 ffffffce 2e 3f ffffff88 00 3b 3f   ..;/
+** 8/2055. rekord:
+  0000000004E13010, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  74 74 7d 3f 00 00 00 00 ffffffb7 08 10 3e 26 74 7d 3f   tt}?.......>&t}?
+      0010  0d 10 47 3b ffffffb7 08 10 3e 3b 73 7d 3f ffffffd0 0f ffffffc7 3b   ..G;...>;s}?.../
+      0020  ffffffb7 08 10 3e ffffffb4 71 7d 3f ffffff8f 4b 15 3c ffffffb7 08 10 3e   ...>.q}?./
+      0030  ffffff91 6f 7d 3f ffffffda 0e 47 3c ffffffb7 08 10 3e ffffffd2 6c 7d 3f   .o}?..G<.op
+** 9/2055. rekord:
+  000000000498C010, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  ffffff99 15 67 3f 00 00 00 00 ffffffc1 53 ffffffdc ffffffbe 52 15 67 3f   ..g?...../
+      0010  32 7e 35 3b ffffffc1 53 ffffffdc ffffffbe 7c 14 67 3f fffffffa 7d ffffffb5 3b   2~5~
+      0020  ffffffc1 53 ffffffdc ffffffbe 18 13 67 3f 36 1e 08 3c ffffffc1 53 ffffffdc ffffffbeÁ
+      0030  25 11 67 3f 1b 7d 35 3c ffffffc1 53 ffffffdc ffffffbe ffffffa3 0e 67 3f   %.g?.}5<./
+** 10/2055. rekord:
+  00000000044CB010, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  27 5d fffffffc 3e 00 00 00 00 05 ffffffbe 5e ffffffbf ffffffd9 5c fffffffc 3e   '].]^
+      0010  ffffffb1 34 ffffffc6 3a 05 ffffffbe 5e ffffffbf fffffff0 5b fffffffc 3e 73 34 46 3b±
+  ..^.jZ.>...;..^.
+      0030  4a 58 fffffffc 3e 7f 33 ffffffc6 3b 05 ffffffbe 5e ffffffbf ffffff8d 55 fffffffc 3eJ
+** 11/2055. rekord:
+  0000000003D65010, 4096 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0010  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0020  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0030  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+** 12/2055. rekord:
+  00000000038AB010, 4096 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0010  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0020  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0030  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+** 13/2055. rekord:
+  0000000003867010, 4096 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0010  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0020  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+      0030  4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b 4b   KKKKKKKKKKKKKKKK
+** 14/2055. rekord:
+  00000000058ED020, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  3d 34 0a 3d 00 00 00 00 ffffffaf ffffffda 7f 3f 12 34 0a 3d   =4.=.......?.4.=
+      0010  10 17 ffffffd9 38 ffffffaf ffffffda 7f 3f ffffff92 33 0a 3d ffffffcd 16 59 39   .../
+  ...?.2.=...9...?
+      0030  ffffff93 31 0a 3d ffffffc1 15 ffffffd9 39 ffffffaf ffffffda 7f 3f 13 30 0a 3d   .1.12
+** 15/2055. rekord:
+  0000000004623020, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+      0000  ffffffd3 02 23 3f 00 00 00 00 39 64 45 ffffffbf ffffffa1 02 23 3f   ..#?....9dE...#/
+      0010  43 07 00 3b 39 64 45 ffffffbf 0a 02 23 3f 1c 07 ffffff80 3b   C..;9dE...#?...;
+      0020  39 64 45 ffffffbf 0f 01 23 3f 46 0a ffffffc0 3b 39 64 45 ffffffbf   9dE...#?F..;9dEde
+      0030  ffffffaf ffffffff 22 3f 7e 06 00 3c 39 64 45 ffffffbf ffffffea fffffffd 22 3f   .."ÿ/
+** 16/2055. rekord:
+  0000000004175020, 24576 bajt, kanari: ok
+  C:\BME\felev_1\prog1\nagyhazi\bolygo2\memorymang.c:8, malloc(width*size)
+  .:.=......~..:.=
+      0010  ffffffbb ffffffd5 ffffff93 39  ...9..~..9.=...:

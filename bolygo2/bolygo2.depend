@@ -1,0 +1,893 @@
+# depslib dependency file v1.0
+1667571339 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\hashfn.c
+	"typedefs.h"
+
+1669423354 c:\bme\felev_1\prog1\nagyhazi\bolygo2\typedefs.h
+	<inttypes.h>
+	<stdbool.h>
+
+1670621993 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\main.c
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"debugmalloc.h"
+	"memorycheck.h"
+	"rendering.h"
+	"planetdata.h"
+	"dataio.h"
+	"commands.h"
+	"commandlist.h"
+	"generationsettings.h"
+	"heightgeneration.h"
+	"scenesettings.h"
+	"rendersettings.h"
+	"planetparam.h"
+	"misc.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl2_gfxprimitives.h
+	<math.h>
+	"SDL.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1665871259 c:\program files\codeblocks\mingw\include\sdl2\begin_code.h
+
+1665871259 c:\program files\codeblocks\mingw\include\sdl2\close_code.h
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871261 c:\program files\codeblocks\mingw\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871261 c:\program files\codeblocks\mingw\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871261 c:\program files\codeblocks\mingw\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871260 c:\program files\codeblocks\mingw\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871261 c:\program files\codeblocks\mingw\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1665871261 c:\program files\codeblocks\mingw\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1669585083 c:\bme\felev_1\prog1\nagyhazi\bolygo2\planetdata.h
+	"typedefs.h"
+	"planetparam.h"
+	"colorlist.h"
+	"vector.h"
+
+1669232775 c:\bme\felev_1\prog1\nagyhazi\bolygo2\vector.h
+	"vector.h"
+	"typedefs.h"
+
+1669567950 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\planetdata.c
+	"debugmalloc.h"
+	"memorymang.h"
+	"planetdata.h"
+	"vector.h"
+	"planetparam.h"
+
+1667079595 c:\bme\felev_1\prog1\nagyhazi\bolygo2\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1669262575 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\rgb.c
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	<windows.h>
+	<time.h>
+	"rgb.h"
+	"typedefs.h"
+	"vector.h"
+	"misc.h"
+
+1669261728 c:\bme\felev_1\prog1\nagyhazi\bolygo2\rgb.h
+	<stdbool.h>
+	"typedefs.h"
+	"vector.h"
+
+1669572059 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\vector.c
+	<stdlib.h>
+	<math.h>
+	"vector.h"
+	"hashfunc.h"
+	"typedefs.h"
+	"misc.h"
+
+1668375349 c:\bme\felev_1\prog1\nagyhazi\bolygo2\hashfunc.h
+	"typedefs.h"
+
+1669560684 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\perlin.c
+	"hashfunc.h"
+	"misc.h"
+
+1669571905 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\heightgeneration.c
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	"debugmalloc.h"
+	"perlin.h"
+	"hashfunc.h"
+	"vector.h"
+	"misc.h"
+	"heightgeneration.h"
+	"generationsettings.h"
+	"planetdata.h"
+	"typedefs.h"
+
+1669263399 c:\bme\felev_1\prog1\nagyhazi\bolygo2\perlin.h
+	"typedefs.h"
+
+1669209480 c:\bme\felev_1\prog1\nagyhazi\bolygo2\heightgeneration.h
+	"typedefs.h"
+	"vector.h"
+	"planetdata.h"
+	"generationsettings.h"
+
+1669571653 c:\bme\felev_1\prog1\nagyhazi\bolygo2\generationsettings.h
+	<stdbool.h>
+	"typedefs.h"
+	"vector.h"
+	"planetdata.h"
+
+1667571339 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\hashfunc.c
+	"typedefs.h"
+
+1669572200 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\rendering.c
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+	<math.h>
+	<stdbool.h>
+	"rgb.h"
+	"typedefs.h"
+	"vector.h"
+	"perlin.h"
+	"hashfunc.h"
+	"misc.h"
+	"scenesettings.h"
+	"rendersettings.h"
+	"planetparam.h"
+	"rendering.h"
+
+1667827917 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\rendersettings.h
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+
+1669568116 c:\bme\felev_1\prog1\nagyhazi\bolygo2\scenesettings.h
+	"typedefs.h"
+	"planetdata.h"
+	"planetdata.h"
+
+1669269518 c:\bme\felev_1\prog1\nagyhazi\bolygo2\rendersettings.h
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+	<stdbool.h>
+	"vector.h"
+
+1669511544 c:\bme\felev_1\prog1\nagyhazi\bolygo2\rendering.h
+	<stdbool.h>
+	"rgb.h"
+	"vector.h"
+	"rendersettings.h"
+	"scenesettings.h"
+
+1669563053 c:\bme\felev_1\prog1\nagyhazi\bolygo2\misc.h
+	"typedefs.h"
+
+1669563068 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\misc.c
+	<string.h>
+	"debugmalloc.h"
+	"misc.h"
+	"typedefs.h"
+
+1668994546 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\colordata.c
+	<math.h>
+	<stdbool.h>
+	"colordata.h"
+	"debugmalloc.h"
+	"rgb.h"
+
+1668995415 c:\bme\felev_1\prog1\nagyhazi\bolygo2\colordata.h
+	"rgb.h"
+
+1669571694 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\scenesettings.c
+	<math.h>
+	"scenesettings.h"
+	"vector.h"
+	"typedefs.h"
+	"planetdata.h"
+	"misc.h"
+
+1668640488 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\memorymang.c
+	"debugmalloc.h"
+
+1668619415 c:\bme\felev_1\prog1\nagyhazi\bolygo2\memorymang.h
+
+1669587987 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\dataio.c
+	<stdio.h>
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+	<string.h>
+	<stdbool.h>
+	<math.h>
+	"commands.h"
+	"commandlist.h"
+	"planetdata.h"
+	"scenesettings.h"
+	"rendering.h"
+	"planetparam.h"
+	"misc.h"
+	"typedefs.h"
+	"memorymang.h"
+	"colorlist.h"
+	"dataio.h"
+
+1669587145 c:\bme\felev_1\prog1\nagyhazi\bolygo2\dataio.h
+	"commandlist.h"
+
+1669572358 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\colorlist.c
+	<math.h>
+	<stdbool.h>
+	"colorlist.h"
+	"rgb.h"
+	"debugmalloc.h"
+	"rgb.h"
+
+1669572374 c:\bme\felev_1\prog1\nagyhazi\bolygo2\colorlist.h
+	"rgb.h"
+
+1669268720 c:\bme\felev_1\prog1\nagyhazi\bolygo2\planetparam.h
+	"rgb.h"
+
+1669571894 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\planetparam.c
+	"debugmalloc.h"
+	"planetparam.h"
+
+1669269453 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\rendersettings.c
+	"rendersettings.h"
+	"vector.h"
+
+1669416259 c:\bme\felev_1\prog1\nagyhazi\bolygo2\memorycheck.h
+
+1669416321 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\memorycheck.c
+	<stdlib.h>
+
+1669424210 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\consoleinput.c
+	<stdio.h>
+	"typedefs.h"
+	"generationsettings.h"
+	"scenesettings.h"
+	"planetdata.h"
+
+1669584477 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\commands.c
+	<SDL.h>
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+	"commands.h"
+	"commandlist.h"
+	"misc.h"
+	"typedefs.h"
+	"generationsettings.h"
+	"scenesettings.h"
+	"planetdata.h"
+	"heightgeneration.h"
+	"dataio.h"
+
+1669575517 c:\bme\felev_1\prog1\nagyhazi\bolygo2\commands.h
+	"planetdata.h"
+	"generationsettings.h"
+	"scenesettings.h"
+	"commandlist.h"
+
+1669583048 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\commandlist.c
+	<string.h>
+	<stdbool.h>
+	"commandlist.h"
+
+1669575811 c:\bme\felev_1\prog1\nagyhazi\bolygo2\commandlist.h
+	<SDL.h>
+
+1669571641 source:c:\bme\felev_1\prog1\nagyhazi\bolygo2\generationsettings.c
+	"generationsettings.h"
+
+1669575958 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\colorlist.c
+	<math.h>
+	<stdbool.h>
+	"colorlist.h"
+	"rgb.h"
+	"debugmalloc.h"
+	"rgb.h"
+
+1669575974 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\colorlist.h
+	"rgb.h"
+
+1669265328 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\rgb.h
+	<stdbool.h>
+	"typedefs.h"
+	"vector.h"
+
+1669426954 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\typedefs.h
+	<inttypes.h>
+	<stdbool.h>
+
+1669236375 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\vector.h
+	"vector.h"
+	"typedefs.h"
+
+1667083195 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1669586648 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\commandlist.c
+	<string.h>
+	<stdbool.h>
+	"commandlist.h"
+
+1669579411 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\commandlist.h
+	<SDL.h>
+
+1669588077 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\commands.c
+	<SDL.h>
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+	"commands.h"
+	"commandlist.h"
+	"misc.h"
+	"typedefs.h"
+	"generationsettings.h"
+	"scenesettings.h"
+	"planetdata.h"
+	"heightgeneration.h"
+	"dataio.h"
+
+1669579117 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\commands.h
+	"planetdata.h"
+	"generationsettings.h"
+	"scenesettings.h"
+	"commandlist.h"
+
+1669588683 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\planetdata.h
+	"typedefs.h"
+	"planetparam.h"
+	"colorlist.h"
+	"vector.h"
+
+1669272320 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\planetparam.h
+	"rgb.h"
+
+1669575253 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\generationsettings.h
+	<stdbool.h>
+	"typedefs.h"
+	"vector.h"
+	"planetdata.h"
+
+1669571716 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\scenesettings.h
+	"typedefs.h"
+	"planetdata.h"
+	"planetdata.h"
+
+1669566653 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\misc.h
+	"typedefs.h"
+
+1669213080 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\heightgeneration.h
+	"typedefs.h"
+	"vector.h"
+	"planetdata.h"
+	"generationsettings.h"
+
+1669590745 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\dataio.h
+	"commandlist.h"
+
+1669591587 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\dataio.c
+	<stdio.h>
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+	<string.h>
+	<stdbool.h>
+	<math.h>
+	"commands.h"
+	"commandlist.h"
+	"planetdata.h"
+	"scenesettings.h"
+	"rendering.h"
+	"planetparam.h"
+	"misc.h"
+	"typedefs.h"
+	"memorymang.h"
+	"colorlist.h"
+	"dataio.h"
+
+1669515144 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\rendering.h
+	<stdbool.h>
+	"rgb.h"
+	"vector.h"
+	"rendersettings.h"
+	"scenesettings.h"
+
+1669273118 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\rendersettings.h
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+	<stdbool.h>
+	"vector.h"
+
+1668623015 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\memorymang.h
+
+1667574939 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\hashfunc.c
+	"typedefs.h"
+
+1669575505 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\heightgeneration.c
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	"debugmalloc.h"
+	"perlin.h"
+	"hashfunc.h"
+	"vector.h"
+	"misc.h"
+	"heightgeneration.h"
+	"generationsettings.h"
+	"planetdata.h"
+	"typedefs.h"
+
+1669266999 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\perlin.h
+	"typedefs.h"
+
+1668378949 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\hashfunc.h
+	"typedefs.h"
+
+1670625593 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\main.c
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"debugmalloc.h"
+	"memorycheck.h"
+	"rendering.h"
+	"planetdata.h"
+	"dataio.h"
+	"commands.h"
+	"commandlist.h"
+	"generationsettings.h"
+	"heightgeneration.h"
+	"scenesettings.h"
+	"rendersettings.h"
+	"planetparam.h"
+	"misc.h"
+
+1669419859 c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\memorycheck.h
+
+1669419921 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\memorycheck.c
+	<stdlib.h>
+
+1668644088 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\memorymang.c
+	"debugmalloc.h"
+
+1669566668 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\misc.c
+	<string.h>
+	"debugmalloc.h"
+	"misc.h"
+	"typedefs.h"
+
+1669564284 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\perlin.c
+	"hashfunc.h"
+	"misc.h"
+
+1669571550 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\planetdata.c
+	"debugmalloc.h"
+	"memorymang.h"
+	"planetdata.h"
+	"vector.h"
+	"planetparam.h"
+
+1669575494 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\planetparam.c
+	"debugmalloc.h"
+	"planetparam.h"
+
+1669575800 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\rendering.c
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+	<math.h>
+	<stdbool.h>
+	"rgb.h"
+	"typedefs.h"
+	"vector.h"
+	"perlin.h"
+	"hashfunc.h"
+	"misc.h"
+	"scenesettings.h"
+	"rendersettings.h"
+	"planetparam.h"
+	"rendering.h"
+
+1669273053 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\rendersettings.c
+	"rendersettings.h"
+	"vector.h"
+
+1669266175 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\rgb.c
+	<SDL.h>
+	<SDL2_gfxPrimitives.h>
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	<windows.h>
+	<time.h>
+	"rgb.h"
+	"typedefs.h"
+	"vector.h"
+	"misc.h"
+
+1669575294 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\scenesettings.c
+	<math.h>
+	"scenesettings.h"
+	"vector.h"
+	"typedefs.h"
+	"planetdata.h"
+	"misc.h"
+
+1669575659 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\vector.c
+	<stdlib.h>
+	<math.h>
+	"vector.h"
+	"hashfunc.h"
+	"typedefs.h"
+	"misc.h"
+
+1669575241 source:c:\bme\1 félév\felev_1\prog1\nagyhazi\bolygo2\generationsettings.c
+	"generationsettings.h"
+

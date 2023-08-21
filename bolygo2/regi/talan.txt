@@ -1,0 +1,36 @@
+talán multithread
+
+typedef struct ThreadParam{
+    int startX;
+    int startY;
+    int pixelCount;
+    const *SceneSettings sceneSet;
+    const *RenderSettings renderSet;
+    Uint8 *startPointer;
+} ThreadParam;
+
+
+
+void *renderSegment(void *vargp){
+    ThreadParam *threadParam = (ThreadParam *)vargp;
+    RenderSettings *renderSet = threadParam->renderSet;
+    SceneSettings *sceneSet = threadParam->sceneSet;
+
+	int width = renderSet->renderW;
+	int height = renderSet->renderH;
+
+	int counter = 0;
+	
+	Uint8 *pixelPointer =  renderSet->pixels;
+	for(int y=0; y<height; y++) {
+		for(int x=0; x<width; x++) {
+			RGB color = getColor(x,y,renderSet,sceneSet);
+			//color = newRGB(x%256,x%256,x%256);
+			*pixelPointer++=color.b;
+			*pixelPointer++=color.g;
+			*pixelPointer++=color.r;
+			*pixelPointer++=255;
+		}
+	}
+
+}
